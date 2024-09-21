@@ -1,0 +1,27 @@
+.forecast-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forecast-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 150px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Forecast.css */
+.forecast {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
